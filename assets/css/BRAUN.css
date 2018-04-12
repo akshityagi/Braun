@@ -1,0 +1,566 @@
+
+body {
+
+	background-color: #2e2f31;
+	color:white;
+	font-weight: 100;
+	font-size: 0.8rem;
+	overflow-x: hidden;
+	font-family: 'Tajawal';
+}
+
+.press{
+	
+	
+	cursor: pointer;
+	background-color: #2e2f31;
+	color: white;
+	text-align: center; 
+	padding-top: 3px;
+	padding-bottom: 3px;
+	min-width: 8rem;
+	border-radius: 8rem;
+	border: 1px solid white;
+	font-size: 0.8rem;
+
+
+}
+
+.link{
+
+	cursor: pointer;
+
+}
+
+.log img{
+
+	cursor: pointer;
+	height:1.6rem;
+	width: auto;
+
+}
+
+.main{
+
+	position: relative;
+	top: 3rem;
+	z-index: 0;
+	overflow: visible; 
+	margin-bottom: 3rem;
+}
+
+.main2{
+
+	position: relative;
+	
+}
+
+.main3{
+
+	position: relative;
+	background-image: url("../images/bg1.jpg");
+	background-size: 100% auto ;
+	background-repeat: no-repeat;
+	width: 100vw;
+	height: 100vh;
+	z-index: 2;
+		
+}
+
+h5{
+
+	color: grey;
+}
+
+.heading{
+
+	letter-spacing: 0.1rem;
+	font-size: 3rem;
+	font-weight: 100;
+	font-family: 'Tajawal';
+	
+}
+
+
+.heading1{
+
+	font-family: 'Gothic A1';
+    font-size: 1.8rem;
+    font-weight: 900;
+    padding-right: 3rem;
+    padding-top: 3rem;
+    
+	
+}
+
+.heading2{
+
+	font-family: 'Gothic A1';
+    font-size: 1.8rem;
+    font-weight: 900;
+    padding-right: 11rem;
+    
+	
+}
+
+
+.shift{
+
+	padding-left: 12rem;
+	padding-right: 2rem;
+}
+
+
+.sub{
+
+	position: relative;
+	padding-top: 4rem;
+	padding-left: 2rem;
+	font-size: 0.78rem;
+	padding-right: 0.8rem;
+}
+
+
+.vl {
+    border-left: 1px solid grey;
+	height: 58px;
+	position: absolute;
+	bottom: 11.3rem;
+
+	
+}
+
+
+.sub1{
+
+	position: relative;
+    padding-top: 3rem;
+    padding-left: 2rem;
+    padding-right: 4rem;
+    font-weight: 500;
+}
+
+.sub2{
+
+	position:relative; 
+    padding-top: 3rem;
+    padding-left: 2rem;
+    padding-right: 10rem;
+    font-weight: 500;
+}
+
+
+.vl1 {
+    border-left: 1px solid grey;
+	height: 67px;
+	position: absolute;
+	bottom: 18rem;	
+}
+
+.vl2 {
+    border-left: 1px solid grey;
+	height: 67px;
+	position: absolute;
+	bottom: 11.1rem;
+}
+
+
+.shadow {
+    position: absolute;
+    background : -webkit-linear-gradient(top , rgba(76, 104, 77, 0.61) , rgba(0,0,0,0.4));
+    z-index: 0;
+    height: 100%;
+    width: 100%;
+    left: 0rem;
+}
+
+
+.big{
+
+	font-family: 'Gothic A1';
+    font-size: 15rem;
+    z-index: 1;
+    font-weight: 100;
+    position: absolute;
+    bottom: 9rem;
+    left: 11.5rem;
+}
+
+
+.camera{
+
+	position: absolute;
+	height: 180px;
+	width: auto;
+	z-index: 2;
+	left: 8rem;
+	top: 5rem;
+}
+
+
+.dip{
+
+	display: flex;
+	transform: rotate(-90deg);
+   	align-items: center; 
+   	position: absolute;
+   	left: -1rem;
+   	bottom: 10rem;
+	
+}
+
+.but1{
+	
+	position: relative;
+	background-color: #2e2f31;
+    color: white;
+    text-align: left;
+    font-size: 0.8rem;
+    border: none;
+    margin-top: 3rem;
+    margin-bottom: 5.5rem;
+    padding-left: 1.9rem;
+    padding-right: 2.2rem;
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+    transition: all 0.2s ease-in-out;
+}
+
+.but1::before {
+
+  	content: '';
+    position: absolute;
+    left: 6.2rem;
+    border-top: 6px solid white;
+    border-left: 8px solid transparent;
+    top: 0.7rem;
+    transition: all 0.2s ease-in-out;
+
+}
+
+.but1::after{
+
+	content: '';
+    border-left: 3px solid #bd4343;
+    height: 79px;
+    position: absolute;
+    left: 4.2rem;
+    transform: rotate(90deg);
+    top: 0rem;
+    transition: all 0.2s ease-in-out;
+    
+}
+
+.but1:hover{
+
+	text-decoration: none;
+    opacity: 0.7;
+    color: #bcbcd3;
+    cursor: pointer;
+}
+
+
+
+button:focus {
+  outline: none;
+}
+
+.but2{
+	
+	position: relative;
+	background-color: #f8272796;
+    color: white;
+    text-align: center;
+    font-size: 0.8rem;
+    border: none;
+    margin-top: 3rem;
+    margin-bottom: 5.5rem;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+    transition: all 0.2s ease-in-out;
+}
+
+.but2::before {
+
+  	content: '';
+    position: absolute;
+    left: 5.23rem;
+    border-bottom: 8.5px solid #f8f9fa;
+    border-left: 7.5px solid transparent;
+    top: 1.5rem;
+}
+
+.but2:hover{
+
+	text-decoration: none;
+    opacity: 0.9;
+    background-color: #e84444;
+    color: white;
+    cursor: pointer;
+}
+
+.but3{
+	
+	position: relative;
+	background-color: white;
+    color: black;
+    text-align: center;
+    font-size: 0.6rem;
+    font-weight: 600;
+    font-family: "Tajawal";
+    border: none;
+    margin-top: 3rem;
+    margin-bottom: 5.5rem;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+    transition: all 0.2s ease-in-out;
+}
+
+.but3::before {
+
+    content: '';
+    position: absolute;
+    left: 6.6rem;
+    border-bottom: 7px solid #353333;
+    border-left: 9px solid transparent;
+    top: 1.25rem;
+}
+
+.but3:hover{
+
+	text-decoration: none;
+    opacity: 0.7;
+    background-color: #e5e5e2;
+    color: #201f1f;
+    cursor: pointer;
+}
+
+
+.dot{
+	font-size: 2.8rem;
+	color: grey;
+	transition: all 0.2s ease-in-out;
+	cursor: pointer;
+    opacity: 1;
+}
+
+.pad2:hover{
+    cursor: pointer;
+}
+.pad2:hover .dot{
+	cursor: pointer;
+    opacity: 0;
+}
+
+
+.pad2:hover h5{
+
+    color: black;
+
+}
+
+.pad2:hover .vrt {
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+    opacity: 1;
+    transform: translateX(0);
+
+}
+
+.pad2:hover .vrr{
+
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+    opacity: 1;
+    transform: translateX(0) rotate(90deg); 
+}
+
+
+
+
+
+.vrr{
+    border-left: 3px solid #bd4343;
+    height: 41px;
+    position: absolute;
+    left: 3.3rem;
+    top: 7.5rem;
+    opacity: 0;
+    transition: all 0.4s ease-in-out;
+    transform: translateX(5rem) rotate(90deg);
+}
+
+.vrt{
+	font-size: 0.7rem;
+    position: absolute;
+    color: #bd4343;
+    top: 8.4rem;
+    left: 5.3rem;
+    opacity: 0;
+    transition: all 0.4s ease-in-out;
+    transform: translateX(5rem);
+}
+
+
+
+.text{
+
+	font-size: 10px;
+	font-weight: 200;
+	font-family: 'Tajawal';
+}
+
+.fa{
+  
+    transform: rotate(90deg);
+    font-size: 0.5rem !important;
+    padding: 4px;
+    text-align: center;
+    border-radius: 50%;
+    width: 15px;
+}
+
+.fa:hover {
+
+	text-decoration: none;
+    opacity: 0.7;
+    background-color: grey;
+    color: white;
+}
+
+.fa-facebook {
+
+  background: grey;
+  color: white;
+}
+
+.fa-twitter {
+
+  background:grey;
+  color: white;
+}
+
+.fa-google {
+  background:grey;
+  color: white;
+}
+
+.white{
+
+	background-color: #f8f9fa;
+	color: black;
+}
+
+
+.wat {
+
+	height:525px;
+	width:auto;
+
+}
+
+
+
+h5{
+
+	font-size: 0.8rem;
+}
+
+p{
+
+	font-size: 0.7rem;
+}
+
+.pad1{
+	padding-top: 2.5rem;
+    padding-left: 8.3rem;
+    font-weight: 500;
+    padding-right: 8rem;
+}
+
+@media (max-width: 769px) {
+    .pad1 {
+      padding-left: 0;
+      padding-right: 0;
+    }
+}
+
+.pad2{
+
+    padding-right: 60px;
+    padding-left: 30px;
+}
+
+.pad{
+
+	padding-top: 2rem;
+}
+
+.py-3{
+
+	margin-bottom: -1rem;
+}
+
+
+.but1::after{
+
+	content: '';
+    border-left: 3px solid #bd4343;
+    height: 79px;
+    position: absolute;
+    left: 4.2rem;
+    transform: rotate(90deg);
+    top: 0rem;
+}
+
+.dot::before{
+
+	content: '';
+    border-left: 3px solid #bd4343;
+    height: 41px;
+    position: absolute;
+    left: 3.3rem;
+    transform: rotate(90deg);
+    top: 8rem;
+    display: none;
+
+}
+
+.dot::after{
+
+	content: 'Learn More';
+	font-size: 0.7rem;
+    position: absolute;
+    color: #bd4343;
+    top: 8.9rem;
+    left: 5.3rem;
+	display: none;
+
+}
+
+.dot:hover::before{
+
+	display: block;
+}
+
+
+.dot:hover::after{
+
+	display: block;
+}
+
+
+.nav-links{
+
+    color: #dad5d5;
+    font-weight: 400;
+    transition: all 0.1s ease-in-out;
+}
+.nav-links:hover{
+
+    color: white;
+}
